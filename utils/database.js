@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 
 let  isConnected = false
-//conection Mongodb
+//conection Mongodb Atlas
 export const connectToDB = async()=>{
     mongoose.set('strictQuery', true)
 
